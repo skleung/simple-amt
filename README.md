@@ -1,3 +1,13 @@
+improved-image-sentence branch
+==============================
+
+1. `python render_template.py --html_template=improved_image_sentence.html`
+2. `cd rendered_templates`
+3. `python -m SimpleHTTPServer 8080` 
+4. Go [here](http://localhost:8080/improved_image_sentence.html)
+
+Note: Existing sentences can be added to `rendered_templates/improved_image_sentence_input.html` 
+
 simple-amt
 ==========
 simple-amt is a microframework for working with [Amazon's Mechanical Turk](http://www.mturk.com) (AMT). It was designed with the following three principles in mind:
