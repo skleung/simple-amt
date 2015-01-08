@@ -1,9 +1,9 @@
 import argparse, json
+import simpleamt
 
+from boto.mturk.connection import MTurkRequestError 
 from boto.mturk.price import Price
 from boto.mturk.question import HTMLQuestion
-
-import simpleamt
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(parents=[simpleamt.get_parent_parser()])

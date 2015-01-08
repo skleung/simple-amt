@@ -1,6 +1,6 @@
 import argparse, json
 
-from boto.mturk.connection import MTurkConnection
+from boto.mturk.connection import MTurkConnection, MTurkRequestError 
 from boto.mturk.qualification import *
 from jinja2 import Environment, FileSystemLoader
 
